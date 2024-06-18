@@ -2,9 +2,8 @@ name: continuous-integration
 
 on:
   pull_request:
-    branches: ["master", "development"]
+
   push:
-    branches: ["master", "development"]
 
 jobs:
   continuos-integration:
